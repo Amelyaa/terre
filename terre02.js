@@ -6,3 +6,7 @@ const prompt = process.argv
 prompt.slice(2).forEach((argmt) => {
     console.log(argmt)
 })
+
+if(prompt.length <= 2) {
+    console.log("Aucun argument renseigné")
+}
