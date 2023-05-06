@@ -9,4 +9,5 @@ prompt.slice(2).forEach((argmt) => {
 
 if(prompt.length <= 2) {
     console.log("Aucun argument renseigné")
+    process.exit(1)
 }

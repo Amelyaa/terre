@@ -7,6 +7,7 @@ prompt.slice(2).forEach((argmt) => {
     //si ce n'est pas un nombre on affiche un message d'erreur
     if (isNaN(argmt)) {
         console.log("Tu ne me la mettra pas à l'envers")
+        process.exit(1)
     }
     else {
         if (argmt % 2 === 0) {
@@ -19,4 +20,5 @@ prompt.slice(2).forEach((argmt) => {
 
 if (prompt.length <= 2) {
     console.log("Tu ne me la mettra pas à l'envers")
+    process.exit(1)
 }

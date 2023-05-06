@@ -15,9 +15,11 @@ prompt.slice(2).forEach((argmt) => {
     }
     else {
         console.log("L'argument n'est pas une lettre de l'alphabet")
+        process.exit(1)
     }
 })
 
 if(prompt.length <= 2) {
     console.log("Aucun argument renseigné")
+    process.exit(1)
 }
