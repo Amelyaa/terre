@@ -1,4 +1,4 @@
-console.log("Exercice 7: Inverser une chaîne de")
+console.log("Exercice 7: Inverser une chaîne")
 
 const prompt = process.argv
 
